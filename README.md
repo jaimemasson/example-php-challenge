@@ -17,7 +17,7 @@ In order to be considered for the PHP position, you must complete the following 
 3. In the *source* directory, please create a PHP web application using a framework (Laravel, Symfony, Fuel, Zend, Yii, etc.)
 4. Your application should accomplish the following:
   - Connect to the [Github API](http://developer.github.com/)
-  - Find the [joyent/node](https://github.com/joyent/node) repository
+  - Find the [nodejs/node](https://github.com/nodejs/node) repository
   - Find the 25 most recent commits
   - Create a model and store the 25 most recent commits in the database. Make sure to avoid any duplicates.
   - Create a basic template and utilize a CSS framework (Bootstrap, Pure, etc.)
