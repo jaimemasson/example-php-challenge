@@ -4,6 +4,7 @@
 2. Run the following commands:
 	- cd source
 	- composer install
+	- php vendor/bin/homestead make
 	- vagrant up
 	- vagrant ssh
 	- cd source
