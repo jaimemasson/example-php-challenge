@@ -14,7 +14,7 @@
 					</tr>
 				</thead>
 				<tbody>
-					<tr ng-repeat="commit in commits">
+					<tr ng-repeat="commit in commits" ng-class="{endsInNumber:(commit.sha | endsInNumber)}">
 						<td>{{commit.sha}}</td>
 						<td>{{commit.when}}</td>
 						<td>{{commit.message}}</td>
